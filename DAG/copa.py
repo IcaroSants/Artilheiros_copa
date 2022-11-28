@@ -46,7 +46,7 @@ def extrai_dados()->list:
 def insere(ti)-> None:
         dataset = ti.xcom_pull(task_ids=['extracao'])[0]
         
-        connect = Connect('localhost','copa','postgres','post12345')
+        connect = Connect('???','???','???','???')
         connect.faz_insercao('artilheiros_copa',dataset)
     
 
