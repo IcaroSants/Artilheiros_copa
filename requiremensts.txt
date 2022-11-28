@@ -1,0 +1,3 @@
+airflow='2.3.3'
+beautifulsoup4 = '4.11.1'
+psycopg2='2.9.5 (dt dec pq3 ext lo64)'
